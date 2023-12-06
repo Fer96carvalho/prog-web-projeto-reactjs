@@ -8,27 +8,36 @@ body {
   font-size: 14px;
 }
 
-div {
-  width: 100%;
+div #divForm {
+  width: 50%;
   margin: 20px;
 }
 
-div li {
-  display: flex;
-  align-items: center;
+div h3{
+  justify-self: center;
 }
 
-div li + li {
-  margin-top: 15px;
+div ul{
+  align-self: center;
 }
+
+div li {
+  text-align: start;
+  display: flex !important;
+  align-items: center;
+  margin-bottom: 5px;
+  justify-content: space-between;
+}
+
 
 button {
   background: #7159c1;
+  max-width: 94px;
   color: #fff;
   border: 0;
   padding: 10px 15px;
   cursor: pointer;
-  margin-top: 15px;
+  /* margin-top: 15px; */
   font-weight: bold;
   font-size: 14px;
 }
